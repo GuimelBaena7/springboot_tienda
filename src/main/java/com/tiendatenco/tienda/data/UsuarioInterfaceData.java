@@ -9,5 +9,6 @@ public interface  UsuarioInterfaceData
     List<Usuario> getUsuarios();
     void eliminarUsuario(Long id);
     void crearUsuario(Usuario user);
+    Usuario findByEmail(String email);
 
 }
